@@ -184,6 +184,7 @@
 
 #define CONFIG_SERVERIP				192.168.210.18
 #define CONFIG_IPADDR				192.168.210.10
+#define CONFIG_ETHADDR				00:01:02:03:04:05
 
 #define CONFIG_ARP_TIMEOUT			200UL
 
@@ -372,7 +373,6 @@
 	"mmcroot=" CONFIG_MMCROOT " rootwait rw\0" \
 	"smp=" CONFIG_SYS_NOSMP "\0"\
 	"ip_dyn=no\0" \
-	"ethaddr=c8:d3:ff:cc:2f:55\0" \
 	"display=\ \0" \
 	"fb0_lvds1=video=mxcfb0:dev=ldb,if=RGB666 ldb=sin1\0" \
 	"fb1_lvds1=video=mxcfb1:dev=ldb,if=RGB666 ldb=sin1\0" \
